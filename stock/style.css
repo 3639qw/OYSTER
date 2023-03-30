@@ -98,7 +98,7 @@
     inset 2px 2px 4px rgba(0, 0, 0, .15);
 }
 
-.$id{
+.id{
     /*-webkit-box-shadow : 0!important;*/
     box-shadow: none !important;
     -webkit-border-radius: 0!important;
