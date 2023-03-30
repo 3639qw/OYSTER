@@ -100,7 +100,7 @@
 <div class="login_box" style="box-shadow: none;">
     <div class="logo"></div>
     <div class="title" style="font-weight: 800;">온라인은행</div>
-    <div class="sub_title" style="font-weight: 600">Direct Bank</div>
+    <div class="sub_title" style="font-weight: 600">Online Bank</div>
     <form name="signin_form" id="signin_form" method="post" action="../bank/login/login_action.php">
         <div class="fields">
             <div class="username">
