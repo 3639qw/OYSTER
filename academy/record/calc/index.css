@@ -1,0 +1,158 @@
+/* index.php 스타일시트 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+
+/* 1단 div */
+.first_section{
+    width: 100%;
+    height: auto;
+}
+
+/* 2단 div */
+.second_section{
+    height: auto;
+    width: 610px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+/* 증명서구역 */
+.paper_area{
+    width: 100%;
+    height: 70px;
+    background: #7bbcde;
+}
+
+/* 증명서 버튼 규격 Div */
+.paper{
+    height: 70px;
+    width: 30%;
+    float: left;
+}
+
+/* 증명서별 비교 Table */
+.paper_table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color: black;
+    margin: auto;
+}
+
+/* 신청버튼 */
+.accept{
+    float: left;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid rgb(51, 76, 121);
+    color: white;
+    background-color: rgb(51, 76, 121);
+    border-radius: 5px;
+}
+.accept:hover{
+    background-color: white;
+    border: white;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgb(51, 76, 121);
+    transition: all 0.6s;
+}
+
+/* 캔슬버튼 */
+.cancel{
+    float: right;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #999999;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.cancel:hover{
+    background-color: black;
+    border: white;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgb(51, 76, 121);
+    transition: all 0.6s;
+}
+
+/* 타이틀 윈도우 */
+.title{
+    letter-spacing: 2px;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* 증명서 신청 전환 윈도우 */
+.service_window{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* 유의사항 윈도우 */
+.noti_window{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 40px;
+    border: 1px solid #999999;
+}
+.noti_window .top{
+    letter-spacing: 2px;
+    padding-left: 30px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+    color: #000000;
+}
+.noti_window .content{
+    letter-spacing: 1px;
+    border-right: hidden;
+    border-left: hidden;
+    border-collapse: collapse;
+    width: 85%;
+    border-top: 3px solid rgb(51, 76, 121);
+}
+
+/* 항목 윈도우 */
+.window{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-top: 40px;
+    border: 1px solid rgb(51, 76, 121)
+}
+.window .top{
+    letter-spacing: 1px;
+    padding-left: 30px; height: 50px; font-size: 18px; font-weight: bold; background: rgb(51, 76, 121); color: #ffffff;
+}
+.window .content{
+    letter-spacing: 1px;
+    border-right: hidden;
+    border-left: hidden;
+    border-collapse: collapse;
+    width: 85%;
+    border-top: 3px solid rgb(51, 76, 121);
+}
+
+/* Input창 */
+.input{
+    font-size: 15px;
+    padding-left: 10px;
+    width: 350px;
+    height: 28px;
+    border: 1px solid #9b9b9b;
+    background: #f0f0f0;
+    outline: 0!important;
+    letter-spacing: 1px;
+}

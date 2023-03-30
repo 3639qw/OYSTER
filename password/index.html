@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Password Chart</title>
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#315799" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #redMessage {
+            color:#b60000;
+            }
+            body {
+            font-family:Arial;
+            }
+            td {
+            font-size:10pt;
+            }
+            li {
+            font-size:10pt;
+            margin-top:5px;
+            }
+            p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            }
+            h1 {
+            font-size:25pt;
+            margin: 0 0 0 0;
+            }
+            h2 {
+            font-size:15pt;
+            }
+            #chart {
+            font-family:Courier;
+            border: 3px black;
+            font-size:10pt;
+            border-color:#000000;
+            border-style:solid;
+            border-width:1px;
+            background-color:#eeeeee;
+            } 
+            #input {
+            font-size:10pt;
+            } 
+            #chartResults {
+            font-size:10pt;
+            margin-top: 13px;
+            } 
+            #chartNumber {
+            font-size:10pt;
+            }
+            #resultTable {
+            font-family:Courier;
+            font-size:12pt;
+            }
+            #message {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #070;
+            color: #fff;
+            text-align: center;
+            padding: 3px;
+            font-weight: bold;
+            }
+            #message a {
+            color: #fff;
+            }
+        </style>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-19511040-3', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </head>
+
+    <body onload="makeChart(); document.forms[0].seed.focus()" bgcolor="#FFFFFF">
+        <div style="position:relative;top:50%;transform:translateY(30%);">
+            <form>
+                <table width="100%" height="100%">
+                    <tr>
+                        <td valign=center align=center>
+                            <table cellpadding=0 cellspacing=0 border=0>
+                                <tr>
+                                    <td width=20>&nbsp;</td>
+                                    <td valign=bottom><h1>Password Chart</h1></td>
+                                    <td width=20>&nbsp;</td>
+                                    <td align="right"></td>
+                                </tr>
+                                <tr>
+                                    <td width=20>&nbsp;</td>
+                                    <td colspan=3><hr></td>
+                                </tr>
+                                <tr>
+                                    <td width=20>&nbsp;</td>
+                                    <td valign=top>
+                                        <p><label for="seed">차트생성 구문 입력:<br><input id="seed" type=text name="seed" size=45 onkeyup="return seedKeypressed();"></label></p>
+                                        <p><label for="pwd">사용할 암호 입력:<br><input id="pwd" type=text name="pwd" size=45 onkeyup="return pwdKeypressed();"></label></p>
+                                        <p>차트 옵션:<label for="numbers"><input id="numbers" type=checkbox name='numbers' onClick="makeChart();"> 숫자 포함</label> <label for="punct"><input id="punct" type=checkbox name='punct' onClick="makeChart();"> 특수문자 포함</label></p>
+                                        <p>
+                                            <div id="chartResults">
+                                            <noscript>
+                                            <span class="redMessage">자바스크립트가 비활성화되었습니다! 이 페이지를 사용하려면 자바스크립트를 활성화해야 합니다.</span>
+                                            </noscript>
+                                            </div>
+                                        </p>
+                                    </td>
+                                    <td width=20>&nbsp;</td>
+                                    <td width=300 valign=top align=center>
+                                        <div id="chart">
+                                            <table cellspacing=3 cellpadding=3><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr><tr><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td><td width="75">&nbsp;</td></tr></table>
+                                        </div>
+                                        <p><div id='chartNumber'>&nbsp;</div></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script async src="mt.js"></script>
+        <script async src="md5.js"></script>
+        <script async src="chart.js"></script>
+    </body>
+</html>

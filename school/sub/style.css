@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+    *{font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Song Myung', serif;
+    letter-spacing :0.5px;
+    }
+    body{
+    background: #018281; 
+    
+    }
+
+    input[type="text"]{
+
+        background-color : #d1d1d1; 
+        
+      
+    }
+    #post{
+    background: #C0C0C0;
+    margin: auto;
+    width: 800px;
+    height: auto;
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    }
+
+    #pnav{
+    margin: 2px 0px 0px 2px;
+    background-color: #00007f;
+    width: 99%;
+    height: 18px;
+    color: #FFFFFF;
+    padding: 0px 0px 2px 2px;
+    }
+    .btn-primary{
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+    .pbuttons{
+    float: right;
+    padding: 2px 2px 2px 0px;
+    }
+
+    #content{
+    width: 97%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0%;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    }
+
+    #noter{
+    margin: 0% 1% 1% 1%;
+    width: auto;
+    background: #C0C0C0;
+    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row; 
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    }
+
+    .notebox{  
+    flex-grow: 1;
+    margin: auto;
+    width: auto;
+    padding-left: 2px;
+    padding-right: 0px;
+    color: #000000;
+    border-top: 1px solid #929292;
+    border-left: 1px solid #929292;
+    border-bottom: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    }
+    .form-02 {
+    border: 1px inset #d5d5d5;
+    color: #424242;
+    background: #fff;
+    box-shadow: -1px -1px 0 0 #828282;
+    margin-top: 4px;
+    padding-left:2px;
+    }
+    #show>tr>td{
+        border: 1px solid #444444;
+    }
+    .btn-primary{
+        height: 60px;
+
+        /* font-family: 'Song Myung', serif; */
+    }
+    .btn-primary:hover{
+        background: #929292;
+    }
+
+    .btn-insert{
+        /* font-family:"MS Sans Serif"; */
+        font-size:11px;
+        outline:1px solid #000000;
+        background:#C0C0C0;
+        border-width:1px;
+        border-style:solid;
+        border-color:#FFFFFF #808080 #808080 #FFFFFF;
+        padding:4px 10px;
+        /* margin:20px auto 3px; */
+        display:block;
+        position:relative;
+        bottom:0px;
+    }
+    .btn-insert:hover{
+        background: #828282;
+    }
+
+
+

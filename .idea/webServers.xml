@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="42bceca4-faf7-4534-af92-19617d256401" name="web.juyong.kr">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="152.70.233.241" port="22" sshConfigId="3d92cb4d-7b97-4bd0-8954-93fb1c500cd3" sshConfig="root@152.70.233.241:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

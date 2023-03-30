@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        td{
+            border: 1px solid black;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+
+        }
+
+    </style>
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(function(){
+        $("#headerContent").load("/main_menu/main_header.html"); 
+        });
+    </script> 
+    <title>틱택토</title>
+</head>
+<body>
+    <div id="headerContent"></div>
+    <script src="tic.js"></script>
+    <button type="button" style="width: 60px; " onclick="location.href='/'">인덱스</button>
+</body>
+</html>

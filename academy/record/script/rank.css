@@ -1,0 +1,43 @@
+/* 성적부분 2개 */
+.rank #frame_div .record_div{
+    float: left;
+    width: 50%;
+    height: 92%;
+}
+
+/* 성적부분중 가운데 */
+.rank #frame_div .record_center{
+    border-left: #000000 solid 1px;
+}
+
+/* 직인 */
+.rank #stamp_div{
+    width: 100%;
+    height: 35mm;
+
+}
+.rank #stamp_div .stamp_table{
+    width: 100%;
+    height: 100%;
+}
+.rank .stamp_table .stamp_txt{
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+
+/* 등급 조견표 */
+.rank #grade_div{
+    width: 100%;
+    height: 5mm;
+}
+.rank #grade_div .grade_table{
+    width: 100%;
+    height: 100%;
+}
+.rank .grade_table .grade_txt{
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: bold;
+        }
+
+        .item_box {
+            border-radius: 5px;
+            background: #ffffff;
+            box-shadow: 2px 2px 4px 2px #bebebe;
+        }
+
+        .item_box:hover {
+            box-shadow: 0 8px 16px 0 #7bbcde;
+            transition: all 0.6s;
+        }
+
+        .box {
+            border-radius: 5px;
+            background: #ffffff;
+            box-shadow: 2px 2px 4px 2px #bebebe;
+        }
+
+    </style>
+    <meta charset="utf-8">
+    <title>JUYONG의 Index</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+        $(function(){
+        $("#headerContent").load("/main_menu/main_header.html"); 
+        });
+    </script> 
+</head>
+<body>
+    
+    <div id="headerContent"></div>
+
+    <div style="width: 100%; height: 360px;">
+        <div style="position: absolute; left: 50%; transform: translateX(-50%); margin-top: 30px; width: 870px; height: 330px;">
+
+            <!-- 항목 -->
+
+            <div class="item_box" onclick="Student()" style="height: 150px; width: 150px; float: left">
+                <table border="0" class="item_box" style="border-collapse: collapse; width: 100%; height: 100%;">
+                    <tr align="center">
+                        <td>
+                            학생정보관리
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            PHP, MySQL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            2021.12.01
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="item_box" onclick="Record()" style="height: 150px; width: 150px; margin-left: 30px; float: left;">
+                <table border="0" class="item_box" style="border-collapse: collapse; width: 100%; height: 100%;">
+                    <tr align="center">
+                        <td>
+                            성적처리시스템
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            PHP, MySQL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            2021.12.01
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="item_box" onclick="Teacher()" style="height: 150px; width: 150px; margin-left: 30px; float: left;">
+                <table border="0" class="item_box" style="border-collapse: collapse; width: 100%; height: 100%;">
+                    <tr align="center">
+                        <td>
+                            교사 관리
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            PHP, MySQL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            2021.12.01
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="item_box" onclick="High()" style="height: 150px; width: 150px; margin-left: 30px; float: left">
+                <table border="0" class="item_box" style="border-collapse: collapse; width: 100%; height: 100%;">
+                    <tr align="center">
+                        <td>
+                            고등학교정보 관리
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            PHP, MySQL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            2021.12.01
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="item_box" onclick="Middle()" style="height: 150px; width: 150px; margin-left: 30px; float: left;">
+                <table border="0" class="item_box" style="border-collapse: collapse; width: 100%; height: 100%;">
+                    <tr align="center">
+                        <td>
+                            중학교정보 관리
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            PHP, MySQL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            2021.12.01
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- <div class="item_box" onclick="Script()" style="height: 150px; width: 150px; margin-top: 30px; float: left;">
+                <table border="0" class="item_box" style="border-collapse: collapse; width: 100%; height: 100%;">
+                    <tr align="center">
+                        <td>
+                            성적증명서
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            PHP, MySQL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            2022.06.23
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="item_box" onclick="Sat()" style="height: 150px; width: 150px; margin-top: 30px; margin-left: 30px; float: left;">
+                <table border="0" class="item_box" style="border-collapse: collapse; width: 100%; height: 100%;">
+                    <tr align="center">
+                        <td>
+                            수능성적 관리
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            PHP, MySQL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right; padding-right: 10px;">
+                            2021.05.07
+                        </td>
+                    </tr>
+                </table>
+            </div> -->
+
+        </div>
+    </div>
+
+    <script>
+        function Index() {
+            location.href = "/";
+        }
+        function Oracle() {
+            location.href = "http://oracle.juyong.kr/"
+        }
+        function Student() {
+            location.href = "./student";
+        }
+        function Record() {
+            location.href = "./record";
+        }
+        function Teacher() {
+            location.href = "./teacher";
+        }
+        function High() {
+            location.href = "./high_sch";
+        }
+        function Middle() {
+            location.href = "./mid_sch";
+        }
+    </script>
+</body>
+</html>

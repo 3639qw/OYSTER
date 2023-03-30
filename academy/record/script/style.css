@@ -1,0 +1,127 @@
+/* 증명서에서 사용하는 스타일시트 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+*{
+    font-family: 'Nanum Myeongjo', serif;
+    /*font-size: 13px;*/
+    font-weight: bold;
+    word-break: break-all;
+}
+
+/* A4용지 사이즈 width:2480px height:3508px 의 40% */
+.paper{
+    position: absolute;
+    left: 50%;
+    margin-left: -496px;
+    height: auto;
+    width: 992px;
+    display: inline-block;
+    background-color: #cccccc;
+}
+
+/* 성적증명서 타이틀 table */
+.title_table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* 성적증명서 인적사항 */
+.personal_data{
+    width: 30%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 16px;
+    border-color: black;
+}
+
+/* 학년 타이틀 */
+.year_title{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 91%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+/* 1학기 테이블 */
+.one_table{
+    float: left;
+    margin-left: 45px;
+    margin-top: 5px;
+    width: 45%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+/* 2학기 테이블 */
+.two_table{
+    float: right;
+    margin-right: 45px;
+    margin-top: 5px;
+    width: 45%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+/* 총 성적 */
+.total_grade{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 91%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+/* 졸업 성적 */
+.graduate_grade_left{
+    margin-top: 40px;
+    margin-left: 45px;
+    width: 43%;
+    border-collapse: collapse;
+    border-color: black;
+}
+.graduate_grade_right{
+    margin-top: 40px;
+    margin-right: 45px;
+    width: 43%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+/* 점수 구간 안내 */
+.score_info{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 37%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+/* 용어 해설 */
+.comment{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 53%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+/* 사실 확인 문구 */
+.stamp{
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 91%;
+    border-collapse: collapse;
+    border-color: black;
+}
+
+
+.form_field{
+    box-shadow: none !important;
+    border: 0!important;
+    border-bottom: 1px solid #9b9b9b!important;
+    outline: 0!important;
+    color: black!important;
+    background: transparent!important;
+}
+

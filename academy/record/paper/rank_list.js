@@ -1,0 +1,3 @@
+function Cancel(){
+    location.href = '../';
+}

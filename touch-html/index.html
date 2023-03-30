@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>반응형 웹</title>
+        <link rel="stylesheet" href="responsive.css"/>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+         $(function(){
+         $("#headerContent").load("/main_menu/main_header.html"); 
+         });
+        </script>
+        <script>
+            function apple(){
+                window.open("http://apple.com");
+            }
+            function iphone(){
+                window.open("http://apple.com/iphone");
+            }
+            function watch(){
+                window.open("http://apple.com/watch");
+            }
+            function ipad(){
+                window.open("http://apple.com/ipad");
+            }
+            function airpods(){
+                window.open("http://apple.com/airpods-pro");
+            }
+            function imac(){
+                window.open("http://apple.com/imac");
+            }
+            function ipod(){
+                window.open("https://www.apple.com/ipod-touch/");
+            }
+        </script>
+    </head>
+    <body>
+    <div id="headerContent"></div>
+    <header>
+        <h1>Logo</h1>
+        <div class="snsSet">
+           <a href="https://www.facebook.com/apple/" target="_blank"><img src="facebook.png" alt="facebook"></a>
+           <a href="https://www.instagram.com/apple/" target="_blank"><img src="insta.png" alt="instagram"></a>
+           <a href="https://twitter.com/apple" target="_blank"><img src="twitter.png" alt="twitter"></a>
+        </div>
+    </header>
+        <nav></nav>
+        <section>
+           
+            <article>
+                <div class="background bg1" onclick="apple()">
+                       <span>
+                        Apple Inc
+                    </span>
+                </div>
+            </article> <!--1번-->
+            
+            
+            <article>
+                <div class="txt" onclick="iphone()">
+                    <p>
+                        <strong>iPhone</strong><br>
+                        <em>Say Hello To Future</em>
+                    </p>
+                </div>
+            </article> <!--2번-->
+            
+            
+            <article>
+                <div class="background bg3" onclick="ipad()">
+                    <span>iPad</span>
+                </div>
+            </article> <!--3번-->
+            
+            
+            <article></article> <!--4번-->
+            
+            
+            <article></article> <!--5번-->
+               
+                               
+            <article>
+                <div class="background bg4" onclick="ipod()">
+                    <span>iPod</span>
+                </div>
+            </article> <!--6번-->
+        
+           
+            <article>
+                <div class="background bg5" onclick="imac()">
+                    <span>
+                        iMac
+                    </span>
+                </div>
+            </article> <!--7번-->
+            
+            
+            <article>
+                <div class="background bg6" onclick="watch()">
+                    <span>Apple Watch</span>
+                </div>
+            </article> <!--8번-->
+            
+            
+            <article>
+                <div class="background bg7" onclick="airpods()">
+                    <span>AirPods</span>
+                </div>
+            </article> <!--9번-->
+            
+            
+            <article></article> <!--10번-->
+            
+            
+            <article></article> <!--11번-->
+            
+            
+            <article></article> <!--12번-->
+            
+            
+        </section>
+    </body>
+</html>

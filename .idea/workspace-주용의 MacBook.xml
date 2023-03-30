@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b22412a-2def-44f4-b209-9c2b8d537d33" name="변경" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Bmh3IVxHyGmWFMNpTdEv54NwgG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/3639q/OneDrive/JetBrains/Intellij/Oyster/bank/window&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\3639q\OneDrive\JetBrains\Intellij\Oyster\bank\window" />
+      <recent name="C:\Users\3639q\OneDrive\JetBrains\Intellij\Oyster\bank" />
+      <recent name="C:\Users\3639q\OneDrive\JetBrains\Intellij\Oyster\banking\window" />
+      <recent name="C:\Users\3639q\OneDrive\JetBrains\Intellij\Oyster\bank\dialog" />
+      <recent name="C:\Users\3639q\OneDrive\JetBrains\Intellij\Oyster\bank\dialog\Progress" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\3639q\OneDrive\JetBrains\Intellij\Oyster\banking\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="3b22412a-2def-44f4-b209-9c2b8d537d33" name="변경" comment="" />
+      <created>1657516966974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657516966974</updated>
+      <workItem from="1657516968194" duration="35000" />
+      <workItem from="1657597473760" duration="1316000" />
+      <workItem from="1657606372990" duration="6671000" />
+      <workItem from="1657687479891" duration="39824000" />
+      <workItem from="1657790841057" duration="1264000" />
+      <workItem from="1657805654399" duration="598000" />
+      <workItem from="1668072963075" duration="2318000" />
+      <workItem from="1668693756231" duration="1062000" />
+      <workItem from="1668695178296" duration="11135000" />
+      <workItem from="1668736773059" duration="4284000" />
+      <workItem from="1668744379919" duration="47679000" />
+      <workItem from="1668828152321" duration="29514000" />
+      <workItem from="1668907213070" duration="4835000" />
+      <workItem from="1669021663043" duration="258000" />
+      <workItem from="1669021946566" duration="30771000" />
+      <workItem from="1669082949794" duration="32252000" />
+      <workItem from="1669120335260" duration="63000" />
+      <workItem from="1669189315088" duration="8000" />
+      <workItem from="1669190653499" duration="8778000" />
+      <workItem from="1669204501870" duration="15234000" />
+      <workItem from="1669267667574" duration="23577000" />
+      <workItem from="1669344227528" duration="2304000" />
+      <workItem from="1669348181458" duration="2009000" />
+      <workItem from="1669361545122" duration="1288000" />
+      <workItem from="1669372677442" duration="394000" />
+      <workItem from="1669375068735" duration="41000" />
+      <workItem from="1669375140817" duration="51000" />
+      <workItem from="1669376635867" duration="177000" />
+      <workItem from="1669627123805" duration="234000" />
+      <workItem from="1669627593249" duration="434000" />
+      <workItem from="1669638824958" duration="1528000" />
+      <workItem from="1669735881043" duration="4215000" />
+      <workItem from="1669785248655" duration="39151000" />
+      <workItem from="1669858250531" duration="34752000" />
+      <workItem from="1669954404407" duration="18587000" />
+      <workItem from="1670130056642" duration="1598000" />
+      <workItem from="1670235549869" duration="3345000" />
+      <workItem from="1670332135560" duration="3517000" />
+      <workItem from="1670335714683" duration="13510000" />
+      <workItem from="1670349434799" duration="788000" />
+      <workItem from="1670382945353" duration="28860000" />
+      <workItem from="1670421994453" duration="6084000" />
+      <workItem from="1670491220854" duration="12000" />
+      <workItem from="1670491448901" duration="2558000" />
+      <workItem from="1670494030209" duration="114000" />
+      <workItem from="1670573851665" duration="43000" />
+      <workItem from="1670574278881" duration="10997000" />
+      <workItem from="1670599363476" duration="1680000" />
+      <workItem from="1670683915535" duration="1397000" />
+      <workItem from="1670763683044" duration="5454000" />
+      <workItem from="1670819461417" duration="25800000" />
+      <workItem from="1670927943224" duration="6287000" />
+      <workItem from="1670996480739" duration="12700000" />
+      <workItem from="1671024600275" duration="798000" />
+      <workItem from="1671097416043" duration="16714000" />
+      <workItem from="1671160616410" duration="46069000" />
+      <workItem from="1671237114098" duration="4335000" />
+      <workItem from="1671328097181" duration="9716000" />
+      <workItem from="1671425427006" duration="3212000" />
+      <workItem from="1671440497465" duration="19461000" />
+      <workItem from="1671495876992" duration="4776000" />
+      <workItem from="1671526466364" duration="13947000" />
+      <workItem from="1671584919074" duration="1913000" />
+      <workItem from="1671591040783" duration="6857000" />
+      <workItem from="1671601388311" duration="24065000" />
+      <workItem from="1671676252883" duration="61186000" />
+      <workItem from="1671772641784" duration="19471000" />
+      <workItem from="1671871409120" duration="16802000" />
+      <workItem from="1671930251743" duration="14431000" />
+      <workItem from="1671976956773" duration="2366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
